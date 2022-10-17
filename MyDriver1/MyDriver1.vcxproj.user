@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+    <SignMode>Off</SignMode>
+    <TestCertificate>CN="WDKTestCert danbai,133101985924706369" | 294E611A467DD7CB2FD8302A673EF86D4E682329</TestCertificate>
+    <DbgengKernelMachineName>dev</DbgengKernelMachineName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <SignMode>Off</SignMode>
+    <TestCertificate>CN="WDKTestCert danbai,133101985924706369" | 294E611A467DD7CB2FD8302A673EF86D4E682329</TestCertificate>
+    <DbgengKernelMachineName>dev</DbgengKernelMachineName>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <DbgengRemoteMachineName>dev</DbgengRemoteMachineName>
+  </PropertyGroup>
+</Project>
