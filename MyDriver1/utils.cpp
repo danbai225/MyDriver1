@@ -1,4 +1,4 @@
-
+#include "utils.h"
 NTSTATUS get_process_name(int pid, PWCHAR* out_fullpath, PWCHAR* out_name)
 {
     typedef NTSTATUS(*xxQUERY_INFO_PROCESS) (
